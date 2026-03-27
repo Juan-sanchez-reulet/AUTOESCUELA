@@ -45,6 +45,11 @@ export default function SiteFooter() {
           <div>
             <h4 className="text-white font-semibold mb-4 text-sm">Información</h4>
             <ul className="space-y-2 text-sm">
+              <li>
+                <a href="/alumno" className="hover:text-white transition-colors text-blue-400 hover:text-blue-300 font-medium">
+                  Área del alumno →
+                </a>
+              </li>
               {["Sobre nosotros", "Nuestros profesores", "Blog de conducción", "Preguntas frecuentes", "Política de privacidad", "Aviso legal"].map((item) => (
                 <li key={item}>
                   <a href="#" className="hover:text-white transition-colors">{item}</a>

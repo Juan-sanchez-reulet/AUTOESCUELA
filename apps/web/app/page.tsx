@@ -26,12 +26,19 @@ export default function HomePage() {
           <div className="hidden md:flex items-center gap-8 text-sm text-gray-600">
             <a href="#precios" className="hover:text-blue-600 transition-colors font-medium">Carnets</a>
             <a href="#ubicacion" className="hover:text-blue-600 transition-colors font-medium">Sedes</a>
+            <a href="/alumno" className="hover:text-blue-600 transition-colors font-medium">Mi área</a>
             <a href="tel:912345678" className="hover:text-blue-600 transition-colors font-medium">91 234 56 78</a>
           </div>
 
           <div className="flex items-center gap-3">
             <a href="/admin" className="text-sm text-gray-500 hover:text-gray-700 hidden sm:block">
               Acceso dueño →
+            </a>
+            <a href="/alumno" className="text-sm text-blue-600 hover:text-blue-700 font-medium hidden sm:flex items-center gap-1">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+              </svg>
+              Mi área
             </a>
             <button
               onClick={() => setBookingOpen(true)}

@@ -8,9 +8,6 @@
   :root {
     --brand: #1d4ed8;
   }
-  * {
-    @apply border-border;
-  }
   html {
     scroll-behavior: smooth;
   }

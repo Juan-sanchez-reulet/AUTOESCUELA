@@ -9,7 +9,7 @@ Demo funcional de asistente IA para autoescuelas. Stack: Next.js 14 + FastAPI + 
 Abre una terminal y ejecuta estos comandos **uno a uno**:
 
 ```bash
-cd /Users/lucassanchez/Desktop/PROYECTS/AUTOESCUELA/packages/api
+cd /AUTOESCUELA/packages/api
 source .venv/bin/activate
 uvicorn main:app --reload --port 8001
 ```
@@ -22,7 +22,7 @@ Docs interactivos: http://localhost:8001/docs
 Abre **otra terminal** y ejecuta:
 
 ```bash
-cd /Users/lucassanchez/Desktop/PROYECTS/AUTOESCUELA/apps/web
+cd /AUTOESCUELA/apps/web
 npm run dev
 ```
 
